@@ -54,7 +54,7 @@ public class QuickSort {
 //Best case TC=O(NLogN)  -- when pivot element's real position is at the middle   T(n) = 2T(n/2) + \theta(n)
 //Average case TC=O(NLogN)
 //Worst case TC=O(N2) --when pivot element's real position is either left or right most end of array (ascending or descending order)
-//T(n) = T(0) + T(n-1) + \theta(n)  which is equivalent to  T(n) = T(n-1) + \theta               (n)
+//T(n) = T(0) + T(n-1) + \theta(n)  which is equivalent to  T(n) = T(n-1) + \theta(n)
 
 
 //Stable- Not stable

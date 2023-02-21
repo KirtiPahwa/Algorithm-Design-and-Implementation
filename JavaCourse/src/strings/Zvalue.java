@@ -76,8 +76,6 @@ public class Zvalue {
 					// For example str = "aaaaaa" and i = 2, R is 5,
 					// L is 0
 					else{
-
-
 					// else start from R and check manually
 						L = i;
 						while(R < n && str.charAt(R - L) == str.charAt(R))
